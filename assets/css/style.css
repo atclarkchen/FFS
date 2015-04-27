@@ -1,0 +1,526 @@
+/* Utility Stylesheets */
+
+a {
+color: inherit;
+text-decoration: none;
+}
+
+.clear {
+clear: both;
+}
+
+.img-scaled {
+width: 100%;
+}
+
+.img-scaled-wh {
+width: 100%;
+height: 100%;
+}
+
+/* Freebies */
+
+body {	/*the outer layer of the site and global style attributes*/
+font-family: 'Lato', sans-serif;
+margin: 0px;
+background: #edeae5;
+}
+
+/*
+.banner {
+  background-color: rgb(224, 64, 64);
+  width: 100%;
+  height: 600px;
+  position: relative;
+  z-index: 1000;
+  top: 0px;
+}
+*/
+
+.banner {
+  position: relative;
+  background-color: #CD5C5C; /*Indian Red */
+  width: 100%;
+  height: 600px;
+
+  z-index: 1000;
+}
+
+
+.wrapper-shift {
+  width: 100%;
+  height: 100%;
+  /* -webkit-transform: translateY(0); */
+  position: absolute;
+  -webkit-transition: all 0.8s ease;
+  top: 0;
+}
+
+.wrapper-shift-active {
+  -webkit-transform: translateY(650px);
+}
+
+.banner-content {
+    text-align: center;
+    color: white;
+}
+
+.header {
+    margin-bottom: 50px;
+    width: 100%;
+}
+
+#title {
+    position: relative;
+    top: 100px;
+    font-size: 100px;
+    font-weight: 100;
+}
+
+#subtitle {
+    position: relative;
+    font-size: 20px;
+    font-weight: 100;
+    top: 100px;
+}
+
+#hiw-button {
+    padding: 50px;
+    position: relative;
+    top: 50px;
+}
+
+#download-button {
+    padding: 20px;
+}
+
+
+
+.myButton {
+  background: linear-gradient(to bottom, #ededed 5%, #dfdfdf 100%);
+  background-color: #ededed;
+  border-radius: 6px;
+  border: 1px solid #dcdcdc;
+  display: inline-block;
+  cursor: pointer;
+  color: #777777;
+  font-family: arial;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 6px 24px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #FFFFFF;
+}
+/*
+.myButton:hover {
+    background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #dfdfdf), color-stop(1, #ededed));
+    background:-moz-linear-gradient(top, #dfdfdf 5%, #ededed 100%);
+    background:-webkit-linear-gradient(top, #dfdfdf 5%, #ededed 100%);
+    background:-o-linear-gradient(top, #dfdfdf 5%, #ededed 100%);
+    background:-ms-linear-gradient(top, #dfdfdf 5%, #ededed 100%);
+    background:linear-gradient(to bottom, #dfdfdf 5%, #ededed 100%);
+    background-color:#dfdfdf;
+}*/
+.myButton:active {
+    position:relative;
+    top:1px;
+}
+
+
+
+/*.how-it-works-section {
+    position: relative;
+    height: 700px;
+    width: 100%;
+    z-index: 1000;
+    -webkit-transform: translateY(-700px);
+    -webkit-transition: all 0.8s;
+}*/
+
+
+
+/*
+.hide-show-active {
+  -webkit-transform: translateY(0px);
+}
+*/
+
+
+.how-it-works-section {
+  position: relative;
+  /* top: -650px; */
+  -webkit-transform: translateY(-650px);
+  height: 650px;
+  width: 100%;
+  background-color: #79cccd;
+  z-index: 1000;
+  -webkit-transition: all 0.8s;
+}
+
+.how-it-works-section-active {
+  /* push down to 0 from -650 */
+  -webkit-transform: translateY(0);
+}
+.page-container-responsive {
+    height: 550px;
+    width: 100%;
+}
+
+.row-container {
+  height: 500px;
+  margin-left: 20px;
+  margin-right: 20px;
+  padding: 20px;
+  position: relative;
+  top: 30px;
+  text-align: justify;
+}
+
+.stretch {
+    width: 100%;
+    display: inline-block;
+    font-size: 0;
+    line-height: 0
+}
+
+.row-cell {
+    width: 275px;
+    height: 550px;
+
+    vertical-align: top;
+    display: inline-block;
+    *display: inline;
+
+
+}
+
+.cell-body {
+    /*background-color: rgba(184, 166, 203, 0.73);*/
+    width: 100%;
+    height: 100%;
+}
+
+  .cell-img-container {
+    width: 100%;
+    height: 50%;
+  }
+
+  .cell-img-container img {
+    width: 100%;
+    height: auto;
+  }
+
+  .cell-title {
+    position: relative;
+    top: 10px;
+    text-align: center;
+    font-size: 26px;
+    font-weight: 300;
+    color: white;
+  }
+
+  .cell-text {
+    position: relative;
+    top: 30px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 300;
+    color: whitesmoke;
+    line-height: 1.5;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  #mission {
+    position: relative;
+    width: 100%;
+    height: 400px;
+    background-color: #FFFAFA;
+  }
+
+  #mission-container {
+    width: 80%;
+    height: 90%;
+    margin: 0 auto;
+    margin-top: 20px;
+  }
+
+  #mission-title {
+    position: relative;
+    top: 50px;
+    font-size: 64px;
+    font-weight: 300;
+    width: 100%;
+    text-align: center;
+    box-sizing: border-box;
+  }
+
+  #mission-text {
+    position: relative;
+    padding-top: 70px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 300;
+    color: black;
+    line-height: 1.5;
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  #explore {
+    position: relative;
+    width: 100%;
+    height: 2200px;
+    background-color: #FFFAFA; /*snow*/
+  }
+
+  #explore-title {
+  position: relative;
+  text-align: center;
+  padding: 20px;
+  font-size: 64px;
+  font-weight: 300;
+  }
+
+  #explore-tiles {/*container*/
+    width: 80%;
+    height: 90%;
+    margin: 0 auto;
+    margin-top: 20px;
+  }
+
+
+
+  .info {
+    height: 600px;
+    width: 100%;
+   background: url("../img/dark_embroidery.png");
+  }
+
+
+  .info img {
+    width:100%;
+    height:100%;
+  }
+
+
+  .tile img {
+      width: 100%; /*full width of ANY tile's container */
+      height: 100%;
+  }
+
+  .tile {
+    padding-bottom: 35px;
+  }
+
+  .tile.UCB {
+    width:600px;
+    height: 400px;
+    display: inline-block;
+  }
+
+
+
+  .tile.UCLA {
+    width:500px;
+    height: 400px;
+    float: right;
+  }
+
+  .tile.UCSB {
+    width:500px;
+    height: 300px;
+    float: left;
+  }
+
+  .tile.Stanford {
+    width:600px;
+    height: 300px;
+    float: right;
+  }
+
+  .tile.USC {
+    width:600px;
+    height: 400px;
+    display: inline-block;
+  }
+
+  .tile.UCSD {
+    width:500px;
+    height: 400px;
+    float: right;
+  }
+
+  .tile.UCD {
+    width:500px;
+    height: 300px;
+    float: left;
+  }
+
+  .tile.UCSC {
+    width:600px;
+    height: 300px;
+    float: right;
+  }
+
+  .tile.UCM {
+    width:600px;
+    height: 400px;
+    display: inline-block;
+  }
+
+  .tile.UCSF {
+    width:500px;
+    height: 400px;
+    float: right;
+  }
+
+
+figure{
+  width: 100%; /* 100% of .tile.XX container */
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+  border: 2px solid #fff;
+  box-shadow: 0 0 5px #ddd;
+  margin: 1em;
+}
+
+figcaption{
+  position: absolute;
+  left: 0; right: 0;
+  top: 0; bottom: 0;
+  text-align: center;
+  font-weight: bold;
+  width: 100%;
+  height: 100%;
+  display: table;
+}
+
+figcaption div{
+  display: table-cell;
+  vertical-align: middle;
+  position: relative;
+  top: 20px;
+  opacity: 0;
+  color: white;
+  text-transform: uppercase;
+}
+
+figure img{
+  -webkit-transition: all 0.5s linear;
+          transition: all 0.5s linear;
+  -webkit-transform: scale3d(1, 1, 1);
+          transform: scale3d(1, 1, 1);
+}
+
+figure:hover figcaption{
+ /*background: rgba(255,255,255,0.1);*/
+ background: rgba(8, 8, 8, 0.50);
+}
+
+figcaption:hover div{
+  opacity: 1;
+  top: 0;
+}
+
+figcaption:hover div:after{
+  width: 50%;
+}
+
+figure:hover img{
+  -webkit-transform: scale3d(1.2, 1.2, 1);
+          transform: scale3d(1.2, 1.2, 1);
+}
+
+#team-section {
+  width: 100%;
+  height: 1000px;
+  background-color: #CD5C5C; /*Indian Red */
+}
+
+#team-title {
+  position: relative;
+  font-size: 100px;
+  font-weight: 100;
+  color: white;
+  padding-top: 30px;
+  left: 70px;
+}
+
+.team-row {
+  height: 650px;
+  margin-left: 20px;
+  margin-right: 20px;
+
+  position: relative;
+  text-align: justify;
+}
+
+.team-row-cell {
+  width: 265px;
+  height: 550px;
+  vertical-align: top;
+  display: inline-block;
+}
+
+.name {
+  position: relative;
+  font-size: 45px;
+  font-weight: 100;
+  color: white;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  text-align: center;
+}
+
+.team-cell-body {
+  width: 100%;
+  height: 100%;
+}
+
+  .cell-image{
+    width: 100%;
+    height: 75%;
+  }
+
+  .cell-image img {
+    width: 100%;
+    height: 100%;
+  }
+
+.position {
+  position: relative;
+  font-size: 45px;
+  font-weight: 100;
+  color: white;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  text-align: center;
+}
+
+#mission_text {
+  position: relative;
+  font-size: 30px;
+  font-weight: 100;
+  color: white;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
