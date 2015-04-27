@@ -18,17 +18,24 @@ width: 100%;
 height: 100%;
 }
 
-
+/* Freebies */
 
 body {	/*the outer layer of the site and global style attributes*/
 font-family: 'Lato', sans-serif;
 margin: 0px;
 background: #edeae5;
-width: 100%;
 }
 
-
-
+/*
+.banner {
+  background-color: rgb(224, 64, 64);
+  width: 100%;
+  height: 600px;
+  position: relative;
+  z-index: 1000;
+  top: 0px;
+}
+*/
 
 .banner {
   position: relative;
@@ -46,15 +53,11 @@ width: 100%;
   /* -webkit-transform: translateY(0); */
   position: absolute;
   -webkit-transition: all 0.8s ease;
-  -moz-transition: all 0.8s ease;
-  -ms-transition: all 0.8 ease;
   top: 0;
 }
 
 .wrapper-shift-active {
   -webkit-transform: translateY(650px);
-  -moz-transform: translateY(650px);
-  -ms-transform: translateY(650px);
 }
 
 .banner-content {
@@ -108,11 +111,39 @@ width: 100%;
   text-decoration: none;
   text-shadow: 0px 1px 0px #FFFFFF;
 }
-
+/*
+.myButton:hover {
+    background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #dfdfdf), color-stop(1, #ededed));
+    background:-moz-linear-gradient(top, #dfdfdf 5%, #ededed 100%);
+    background:-webkit-linear-gradient(top, #dfdfdf 5%, #ededed 100%);
+    background:-o-linear-gradient(top, #dfdfdf 5%, #ededed 100%);
+    background:-ms-linear-gradient(top, #dfdfdf 5%, #ededed 100%);
+    background:linear-gradient(to bottom, #dfdfdf 5%, #ededed 100%);
+    background-color:#dfdfdf;
+}*/
 .myButton:active {
     position:relative;
     top:1px;
 }
+
+
+
+/*.how-it-works-section {
+    position: relative;
+    height: 700px;
+    width: 100%;
+    z-index: 1000;
+    -webkit-transform: translateY(-700px);
+    -webkit-transition: all 0.8s;
+}*/
+
+
+
+/*
+.hide-show-active {
+  -webkit-transform: translateY(0px);
+}
+*/
 
 
 .how-it-works-section {
