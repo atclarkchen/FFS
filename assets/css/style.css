@@ -432,6 +432,7 @@ figure:hover img{
 }
 
 #team-section {
+  /* CHANGED TO ABSOLUTE */
   position: absolute;
   width: 100%;
   height: 30%;
